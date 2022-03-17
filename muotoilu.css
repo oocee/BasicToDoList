@@ -1,0 +1,62 @@
+body {
+  background-color: darkslategrey;
+}
+.container{
+  height: 25pc;
+  width: 25pc;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.lisaatxt {
+  position: relative;
+  height: 5px;
+  width: 60%;
+  margin: auto;
+  top: 25px;
+  right: 0;left: 0;
+  outline: none;
+  border: none;
+  padding: 20px;
+  padding-right: 50px;
+  border-radius: 2%;
+}
+.nappi {
+  position: relative;
+  height: 45px;
+  width: 40px;
+  margin: auto;
+  top: 20px;
+  right: 0px;
+  cursor: pointer;
+}
+.lista {
+  position: relative;
+  margin: auto;
+  top: 90px;
+}
+center {
+  position: relative;
+  height: 45px;
+  width: 40px;
+  margin: auto;
+  right: 0px;
+  cursor: pointer;
+}
+.yliviivaa {
+  position: absolute;
+  height: 45px;
+  width: 40px;
+  margin: auto;
+  left: 60px;
+  cursor: pointer;
+}
+.poista {
+  position: absolute;
+  height: 45px;
+  width: 40px;
+  margin: auto;
+  left: 105px;
+  cursor: pointer;
+}
