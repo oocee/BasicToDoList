@@ -9,11 +9,18 @@
 
 <body>
     <div class="container">
-        <input type="text" class="lisaatxt" placeholder="add task...">
+        <input type="text" class="lisaatxt" placeholder="add task..." onkeyup="maara(this)" maxlength="20">
+        
         <button class="nappi" onclick="lisaa()">
         </button>
+       
+        <p id="quan">0/20</p>
+        
         <div class="lista">
-
+        </div>
+        
+        <div>
+            <p class="itemsl">Items left:</p>
         </div>
     </div>
 
