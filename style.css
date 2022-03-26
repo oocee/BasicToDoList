@@ -27,17 +27,24 @@ body {
 .nappi {
   position: relative;
   height: 45px;
-  width: 40px;
+  width: 80px;
   margin: auto;
-  top: 20px;
+  top: 25px;
   right: 0px;
   cursor: pointer;
+  font-family: fantasy;
+  font-weight: 600;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+.nappi:hover {
+  background-color: gray;
 }
 .lista {
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  top: 50px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  top: 30px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 22px 70px 4px;
   background-color: rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -61,32 +68,55 @@ center {
   
 }
 #quan {
-  padding-top: 5px;
+  padding-top: 10px;
   font-family: fantasy;
   font-weight: 400;
   font-size: 110%;
 }
 
 .itemsl {
-  padding-top: 5px;
   font-family: fantasy;
   font-weight: 400;
   font-size: 110%;
+  position: relative;
+  left: 20px;
+  bottom: 50px;
 }
 #xMark {
   position: absolute;
-  height: 45px;
+  height: 40px;
   width: 40px;
   top: 0%;
-  left: 290px;
+  left: 300px;
   cursor: pointer;
 }
+#xMark:hover {
+  height: 50px;
+  width: 50px;
+}
+
 #vMark {
   position: absolute;
-  height: 45px;
+  height: 40px;
   width: 40px;
   top: 0%;
   left: 245px;
   cursor: pointer;
 }
+#vMark:hover {
+  height: 50px;
+  width: 50px;
+}
 
+label {
+  position: relative;
+  font-family: fantasy;
+  font-weight: 400;
+  font-size: 110%;
+}
+#option {
+  position: relative;
+  bottom: 65px;
+  left: 20px;
+
+}
