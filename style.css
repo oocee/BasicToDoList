@@ -32,8 +32,9 @@ body {
   top: 25px;
   right: 0px;
   cursor: pointer;
-  font-family: fantasy;
-  font-weight: 600;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 120%;
   background-color: whitesmoke;
   border-radius: 7px;
 }
@@ -57,7 +58,9 @@ center {
   left: 20px;
   margin-top: 10px;
   background-color: white;
-  font-family: fantasy;
+  font-family: monospace;
+  font-weight: 550;
+  font-size: 120%;
   border-radius: 5px;
 }
 
@@ -69,15 +72,15 @@ center {
 }
 #quan {
   padding-top: 10px;
-  font-family: fantasy;
+  font-family: monospace;
   font-weight: 400;
   font-size: 110%;
 }
 
 .itemsl {
-  font-family: fantasy;
+  font-family: monospace;
   font-weight: 400;
-  font-size: 110%;
+  font-size: 120%;
   position: relative;
   left: 20px;
   bottom: 50px;
@@ -110,9 +113,9 @@ center {
 
 label {
   position: relative;
-  font-family: fantasy;
+  font-family: monospace;
   font-weight: 400;
-  font-size: 110%;
+  font-size: 120%;
 }
 #option {
   position: relative;
